@@ -61,7 +61,7 @@ main{
 
 .other-products figure{
     opacity: 0.75;
-    transition: all 0.2s;
+    transition: all 0.15s;
 }
 
 .other-products figure:hover{
@@ -71,6 +71,10 @@ main{
 .other-products i{
     font-size: 8px;
     vertical-align:super;
+}
+
+section.follow-us{
+    max-width: 1000px;
 }
 
 footer .big i{
