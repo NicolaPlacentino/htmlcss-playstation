@@ -1,8 +1,4 @@
 /* utils */
-:root{
-    --playstation-blue: #0070d1
-}
-
 .bg-black{
     background-color: black;
 }
@@ -14,6 +10,10 @@
 .bg-dark-blue{
     background-color: #161c3b;
 }
+
+.bg-ps-blue{
+    background-color: #00439c;
+}
 /* general */
 
 *{
@@ -22,7 +22,6 @@
 }
 
 .navbar-brand i{
-    color: var(--playstation-blue);
     font-size: 35px;
 }
 
@@ -32,4 +31,8 @@
 
 #sony img{
     width: 100px;
+}
+
+footer .big i{
+    font-size: 45px;
 }
