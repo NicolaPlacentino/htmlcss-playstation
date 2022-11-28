@@ -29,7 +29,18 @@
 }
 
 main{
-    padding-top: 100px;
+    padding-top: 90px;
+}
+
+.jumbotron .text{
+    bottom: 50px;
+    left: 20px;
+
+    font-size: 20px;
+}
+
+.jumbotron > figure{
+    height: 675px;
 }
 
 footer .big i{
