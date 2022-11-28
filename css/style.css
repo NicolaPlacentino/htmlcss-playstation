@@ -1,5 +1,28 @@
+/* utils */
+:root{
+    --playstation-blue: #0070d1
+}
+
+.bg-black{
+    background-color: black;
+}
+
 /* general */
 
+*{
+    /* ! da cancellare */
+    border: 1px dashed gray;
+}
 
+.navbar-brand i{
+    color: var(--playstation-blue);
+    font-size: 35px;
+}
 
-/* utils */
+.navbar-nav i{
+    font-size: 25px;
+}
+
+#sony img{
+    width: 100px;
+}
