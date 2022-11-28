@@ -16,6 +16,10 @@
 }
 /* general */
 
+header{
+    z-index: 1;
+}
+
 .navbar-brand i{
     font-size: 35px;
 }
@@ -39,8 +43,12 @@ main{
     font-size: 20px;
 }
 
-.jumbotron > figure{
+.jumbotron#returnal-bg > figure{
     height: 675px;
+}
+
+.jumbotron#it-takes-two-bg > figure{
+    height: 900px;
 }
 
 .jumbo-bottom img{
@@ -51,6 +59,19 @@ main{
     transform: translateY(-10px);
 }
 
+.other-products figure{
+    opacity: 0.75;
+    transition: all 0.2s;
+}
+
+.other-products figure:hover{
+    opacity: 1;
+}
+
+.other-products i{
+    font-size: 8px;
+    vertical-align:super;
+}
 
 footer .big i{
     font-size: 45px;
