@@ -26,3 +26,7 @@
 #sony img{
     width: 100px;
 }
+
+.jumbotron .text{
+    max-width: 576px;
+}
