@@ -43,6 +43,15 @@ main{
     height: 675px;
 }
 
+.jumbo-bottom img{
+    transition:all 0.5s;
+}
+
+.jumbo-bottom img:hover{
+    transform: translateY(-10px);
+}
+
+
 footer .big i{
     font-size: 45px;
 }
