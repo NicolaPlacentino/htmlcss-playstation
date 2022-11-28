@@ -7,6 +7,13 @@
     background-color: black;
 }
 
+.bg-gray{
+    background-color: #bebcbb;
+}
+
+.bg-dark-blue{
+    background-color: #161c3b;
+}
 /* general */
 
 *{
@@ -25,8 +32,4 @@
 
 #sony img{
     width: 100px;
-}
-
-.jumbotron .text{
-    max-width: 576px;
 }
