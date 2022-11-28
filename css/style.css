@@ -16,11 +16,6 @@
 }
 /* general */
 
-*{
-    /* ! da cancellare */
-    border: 1px dashed gray;
-}
-
 .navbar-brand i{
     font-size: 35px;
 }
@@ -31,6 +26,10 @@
 
 #sony img{
     width: 100px;
+}
+
+main{
+    padding-top: 100px;
 }
 
 footer .big i{
