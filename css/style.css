@@ -38,6 +38,14 @@ main{
     padding-top: 90px;
 }
 
+.jumbo-bg#returnal-bg{
+    height: 675px;
+
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: top center;
+}
+
 .jumbotron .text{
     bottom: 50px;
     left: 20px;
@@ -45,12 +53,13 @@ main{
     font-size: 20px;
 }
 
-.jumbotron#returnal-bg > figure{
-    height: 675px;
-}
 
-.jumbotron#it-takes-two-bg > figure{
+.jumbo-bg#it-takes-two-bg{
     height: 900px;
+
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: top center;
 }
 
 .jumbo-bottom img{
