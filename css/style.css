@@ -14,6 +14,8 @@
 .bg-ps-blue{
     background-color: #00439c;
 }
+
+
 /* general */
 
 header{
@@ -79,4 +81,22 @@ section.follow-us{
 
 footer .big i{
     font-size: 45px;
+}
+
+.btn.rounded-pill{
+    padding: 7px 10px;
+    
+    transition: all 0.1s;
+}
+
+span.border.rounded-pill{
+    transition: all 0.1s;
+}
+
+span.border.rounded-pill:hover{
+    padding: 2px;
+}
+
+span.border.rounded-pill:hover .btn.rounded-pill{
+    padding: 5px 8px;
 }
